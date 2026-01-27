@@ -113,30 +113,42 @@
     font-size: var(--text-heading-1);
     line-height: var(--text-heading-1--line-height);
     letter-spacing: var(--text-heading-1--letter-spacing);
+    font-weight: 700;
   }
 
   .text-heading-2 {
     font-size: var(--text-heading-2);
     line-height: var(--text-heading-2--line-height);
     letter-spacing: var(--text-heading-2--letter-spacing);
+    font-weight: 700;
+  }
+
+  .text-body-bold {
+    font-size: var(--text-body);
+    line-height: var(--text-body--line-height);
+    letter-spacing: var(--text-body--letter-spacing);
+    font-weight: 700;
   }
 
   .text-body {
     font-size: var(--text-body);
     line-height: var(--text-body--line-height);
     letter-spacing: var(--text-body--letter-spacing);
+    font-weight: 400;
   }
 
   .text-body-sm {
     font-size: var(--text-body-sm);
     line-height: var(--text-body-sm--line-height);
     letter-spacing: var(--text-body-sm--letter-spacing);
+    font-weight: 400;
   }
 
   .text-label {
     font-size: var(--text-label);
     line-height: var(--text-label--line-height);
     letter-spacing: var(--text-label--letter-spacing);
+    font-weight: 700;
     text-transform: uppercase;
   }
 
@@ -144,6 +156,7 @@
     font-size: var(--text-overline);
     line-height: var(--text-overline--line-height);
     letter-spacing: var(--text-overline--letter-spacing);
+    font-weight: 700;
     text-transform: uppercase;
   }
 }
