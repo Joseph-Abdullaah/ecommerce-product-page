@@ -4,31 +4,44 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@theme inline {
+/* @theme inline { */
+@theme {
   /* FONT FAMILY */
   --font-sans: "Kumbh Sans", sans-serif;
 
   /* TYPOGRAPHY SCALE */
+  --text-heading-1: 2.75rem; /* 44px */
+  --text-heading-1--line-height: 3rem; /* 48px */
   --text-heading-1: 2.75rem;                 /* 44px */
   --text-heading-1--line-height: 3rem;       /* 48px */
   --text-heading-1--letter-spacing: 0px;
 
+  --text-heading-2: 1.75rem; /* 28px */
+  --text-heading-2--line-height: 2rem; /* 32px */
   --text-heading-2: 1.75rem;                 /* 28px */
   --text-heading-2--line-height: 2rem;       /* 32px */
   --text-heading-2--letter-spacing: 0px;
 
+  --text-body: 1rem; /* 16px */
+  --text-body--line-height: 1.625rem; /* 26px */
   --text-body: 1rem;                         /* 16px */
   --text-body--line-height: 1.625rem;        /* 26px */
   --text-body--letter-spacing: 0px;
 
+  --text-body-sm: 0.9375rem; /* 15px */
+  --text-body-sm--line-height: 1.625rem; /* 26px */
   --text-body-sm: 0.9375rem;                 /* 15px */
   --text-body-sm--line-height: 1.625rem;     /* 26px */
   --text-body-sm--letter-spacing: 0px;
 
+  --text-label: 0.8125rem; /* 13px */
+  --text-label--line-height: 1rem; /* 16px */
   --text-label: 0.8125rem;                   /* 13px */
   --text-label--line-height: 1rem;           /* 16px */
   --text-label--letter-spacing: 2px;
 
+  --text-overline: 0.75rem; /* 12px */
+  --text-overline--line-height: 0.9375rem; /* 15px */
   --text-overline: 0.75rem;                  /* 12px */
   --text-overline--line-height: 0.9375rem;   /* 15px */
   --text-overline--letter-spacing: 1.85px;
